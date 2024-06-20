@@ -1,0 +1,46 @@
+{
+  "cuadros": [
+    {
+      "id": "2",
+      "titulo": "Pagodas Sol y Luna. China",
+      "tecnica": "Acrílico",
+      "imagen": "../img/2019-09-08_China-Las Pagodas Sol y Luna_acrilico.jpg"
+    },
+    {
+      "id": "3",
+      "titulo": "Retorno a sus nidos",
+      "tecnica": "Acrílico",
+      "imagen": "../img/2019-09-17_Retorno a sus nidos_acril.jpg"
+    },
+    {
+      "id": "4",
+      "titulo": "Castillo de Vaduz. Principado de Liechtenstein",
+      "tecnica": "Óleo",
+      "imagen": "../img/2019-10-11_Castillo de Vaduz Ppado de Liechtenstein_Oleo.jpg"
+    },
+    {
+      "id": "6",
+      "titulo": "Margaritas",
+      "tecnica": "Acrílico",
+      "imagen": "../img/2020-09-20_Margaritas_acril.jpg"
+    },
+    {
+      "id": "bee0",
+      "titulo": "Ailén Valente",
+      "tecnica": "Gimnasta Argentina",
+      "imagen": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizrBOq1GFrb11IIsJkmFEkclqYwnMmOg6CHZhAFMb45jsPaU5_iazuaYgQrmRII0LFLFcaJjL5FUY9RZ3VfPDabIQvig6wtdowHpqgQyt_eZ39uST4DLc6sE2XwOypZUNRtlCL-bOyrYLMd5zjW5awkCjAFqzTsM-j7voEGviFns2w5dHc0UOY5PAGZqQA/w442-h640/Gimnasta.png"
+    },
+    {
+      "id": "612a",
+      "titulo": "Atardecer en la laguna de Monte",
+      "tecnica": "Acrílico",
+      "imagen": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhW13v45zmOCRlUWFRnEQvLCaC5N2HNPi8CQDBPAQ7JyOt1m2BH2iTE3NLEQrJvsvtSm4Tx4qlV8xJGOI5D2IUyklgloqt-vA31Kcs-o6KIpAWR6T-EQ7DLSN55aPFU4bJrymcOzyludd6U1O-5pxIfi_7QpiDeo1phDfb84wQX0J6z8UiH1iPU-JIqvYgo/w640-h504/Remando%20en%20el%20Paran%C3%A1.jpeg"
+    },
+    {
+      "id": "8a44",
+      "titulo": "Ailén Valente",
+      "tecnica": "Gimnasta Argentina",
+      "imagen": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizrBOq1GFrb11IIsJkmFEkclqYwnMmOg6CHZhAFMb45jsPaU5_iazuaYgQrmRII0LFLFcaJjL5FUY9RZ3VfPDabIQvig6wtdowHpqgQyt_eZ39uST4DLc6sE2XwOypZUNRtlCL-bOyrYLMd5zjW5awkCjAFqzTsM-j7voEGviFns2w5dHc0UOY5PAGZqQA/w442-h640/Gimnasta.png"
+    }
+  ]
+}
