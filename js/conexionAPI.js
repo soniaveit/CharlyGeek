@@ -11,7 +11,8 @@ async function listarCuadros(){
 //eso en headers, y en body, el cuerpo del mensaje
 async function enviarCuadro(titulo, tecnica, imagen){
     //const conexion = await fetch("http://localhost:3001/cuadros",{
-    const conexion= await fetch("https://alura-geek-api-delta.vercel.app/cuadros",{
+    //const conexion= await fetch("https://alura-geek-api-delta.vercel.app/cuadros",{
+    return await fetch("https://alura-geek-api-delta.vercel.app/cuadros",{
         method: "POST",
         headers:{"Content-type":"application/json"},
         body:JSON.stringify({
@@ -20,9 +21,9 @@ async function enviarCuadro(titulo, tecnica, imagen){
             imagen:imagen
         })
     })
-    const conexionConvertida=conexion.json();
+    //const conexionConvertida=conexion.json();
     
-    return conexionConvertida;
+    //return conexionConvertida;
 };
 
 const borrarCuadro = async (id) => {
