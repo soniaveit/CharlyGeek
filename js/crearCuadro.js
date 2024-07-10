@@ -36,6 +36,8 @@ async function crearCuadro(evento){
         console.log("Envío concluido");
         // Limpiar el formulario después del envío exitoso
         formulario.reset();
+        //Recargar la página
+        window.location.reload();
     } catch (error){
         console.error("Error al enviar los datos: ", error);
     }    
