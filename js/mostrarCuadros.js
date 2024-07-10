@@ -28,9 +28,7 @@ function crearCard(id,titulo, tecnica, imagen){
     });
 
     lista.appendChild(card);
-
     return card;
-
 }
 
 const cuadro = async () => {
@@ -54,40 +52,3 @@ const cuadro = async () => {
 };
 
 cuadro()
-
-/*
-async function listarCuadros(){
-    const listaApi= await conexionApi.listarCuadros()
-
-    listaApi.forEach(card => {
-        lista.appendChild(
-            crearCard(
-                card.id,
-                card.titulo,
-                card.tecnica,
-                card.imagen)
-            );
-    });
-
-}
-
-/Código para la creación de un cuadro nuevo agregado desde el formulario
-const formulario = document.querySelector("[data-formulario]");
-
-async function crearCuadro(evento){
-
-    evento.preventDefault();
-
-    const titulo=document.querySelector("[data-titulo]").value;
-    const tecnica=document.querySelector("[data-tecnica]").value;
-    const imagen=document.querySelector("[data-imagen]").value;
-
-    await conexionApi.enviarCuadro(titulo,tecnica,imagen);
-    //hasta aquí se envía los datos del nuevo cuadro
-    console.log("Envío concluido");
-}
-
-formulario.addEventListener("submit",evento => crearCuadro(evento));
-*/
-
-//listarCuadros()
