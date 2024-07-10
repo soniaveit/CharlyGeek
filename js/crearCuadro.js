@@ -13,7 +13,6 @@ function esURLValida(url) {
 }
 
 async function crearCuadro(evento){
-
     evento.preventDefault();
 
     const titulo=document.querySelector("[data-titulo]").value.trim();
@@ -33,9 +32,10 @@ async function crearCuadro(evento){
     try {
         await conexionApi.enviarCuadro(titulo,tecnica,imagen);
         //hasta aquí se envía los datos del nuevo cuadro
-        console.log("Envío concluido");
+        
         // Limpiar el formulario después del envío exitoso
         formulario.reset();
+        
         //Recargar la página
         window.location.reload();
     } catch (error){
@@ -46,7 +46,3 @@ async function crearCuadro(evento){
 }
 
 formulario.addEventListener("submit", crearCuadro);
-//formulario.addEventListener("submit",evento => crearCuadro(evento));
-
-//listarCuadros()
-
